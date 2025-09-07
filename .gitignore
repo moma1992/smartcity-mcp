@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# 環境変数ファイル
+.env
+.env.local
+
+# スクレイピングしたデータ
+data/
+
+# IDE設定
+.vscode/
+.idea/
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# ログファイル
+*.log
+
+# テスト関連
+.coverage
+.pytest_cache/
+htmlcov/

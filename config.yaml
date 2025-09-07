@@ -1,0 +1,25 @@
+yaizu_api:
+  # スクレイピング設定
+  scraping:
+    base_url: "https://city-api-catalog.smartcity-pf.com/yaizu"
+    api_base_url: "https://city-api-catalog-api.smartcity-pf.com/yaizu"
+    timeout: 30
+    retry_count: 3
+    
+  # データ保存設定
+  data:
+    save_path: "data/api_docs"
+    auto_update_interval: 86400  # 24時間ごと（秒単位）
+    
+  # 防災関連キーワード
+  disaster_keywords:
+    - "防災"
+    - "災害"
+    - "避難"
+    - "緊急"
+    - "地震"
+    - "津波"
+    - "台風"
+    - "洪水"
+    - "土砂災害"
+    - "警報"

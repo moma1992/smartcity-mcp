@@ -1,0 +1,18 @@
+[project]
+name = "smartcity-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.12.15",
+    "beautifulsoup4>=4.13.5",
+    "fastmcp>=2.11.3",
+    "httpx>=0.28.1",
+    "lxml>=6.0.1",
+    "mcp[cli]>=1.13.1",
+    "pymupdf>=1.26.4",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.1",
+    "pyyaml>=6.0.2",
+]
